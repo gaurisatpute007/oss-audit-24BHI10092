@@ -3,15 +3,15 @@
 
 PACKAGE="python3"
 
-# Check if package is installed
-if dpkg -l | grep -q $PACKAGE; then
+# Check if python is installed using command
+if command -v python3 >/dev/null 2>&1; then
     echo "$PACKAGE is installed."
-    dpkg -l | grep $PACKAGE
+    python3 --version
 else
     echo "$PACKAGE is NOT installed."
 fi
 
-# Case statement for description
+# Case statement
 case $PACKAGE in
     python3) echo "Python: a powerful open-source programming language used worldwide" ;;
     git) echo "Git: version control system created by Linus Torvalds" ;;
