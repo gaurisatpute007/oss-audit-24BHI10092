@@ -1,7 +1,7 @@
 #!/bin/bash
 # Script 3: Disk and Permission Auditor
 
-DIRS=("/etc" "/var/log" "/home" "/usr/bin" "/tmp")
+DIRS=("/etc" "/c/Users" "/c/Windows" "/tmp")
 
 echo "Directory Audit Report"
 echo "----------------------"
@@ -16,10 +16,9 @@ for DIR in "${DIRS[@]}"; do
     fi
 done
 
-# Check Python config directory
-if [ -d "/etc/python3" ]; then
-    echo "Python config directory exists:"
-    ls -ld /etc/python3
+# Python config check (adapted)
+if command -v python3 >/dev/null 2>&1; then
+    echo "Python is installed on this system"
 else
-    echo "Python config directory not found"
+    echo "Python not found"
 fi
