@@ -1,7 +1,6 @@
-# oss-audit-24BHI10092
 # Open Source Software Audit Project
 
-**Name:** GAURI ANIL SATPUTE  
+**Name:** Gauri Anil Satpute  
 **Roll Number:** 24BHI10092  
 **Course:** Open Source Software  
 **Software Chosen:** Python  
@@ -16,24 +15,26 @@ This project is an audit of the open-source software Python. It explores its ori
 ## 📂 Scripts Overview
 
 ### 🔹 script1.sh — System Identity Report
-Displays system details such as kernel version, user, uptime, OS distribution, and license information.
+Displays system information such as kernel version, user, date, and environment details.
 
 ### 🔹 script2.sh — FOSS Package Inspector
-Checks whether Python is installed and displays its package details using conditional statements.
+Checks whether Python is installed and displays its version using conditional statements.
 
 ### 🔹 script3.sh — Disk and Permission Auditor
-Analyzes important Linux directories and shows their size and permissions using loops.
+Analyzes selected directories and displays their size and permissions using loops.
 
 ### 🔹 script4.sh — Log File Analyzer
-Reads a log file, counts occurrences of a keyword, and displays matching lines.
+Reads a log file, counts occurrences of a keyword, and shows matching lines.
 
 ### 🔹 script5.sh — Open Source Manifesto Generator
 Generates a personalized open-source philosophy statement based on user input.
 
 ---
 
-## ▶️ How to Run Scripts
+## ▶️ How to Run
 
-### Step 1: Give permission
+### Step 1: Open terminal (Git Bash)
+
+### Step 2: Navigate to project folder
 ```bash
-chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
+cd /c/Users/Anil/Downloads/oss-audit-24BHI10092-main/oss-audit-24BHI10092-main
