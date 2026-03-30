@@ -6,8 +6,8 @@ SOFTWARE_CHOICE="Python"
 
 KERNEL=$(uname -r)
 USER_NAME=$(whoami)
-UPTIME=$(uptime -p)
-DATE=$(date)
+UPTIME="Not available in Git Bash"
+DISTRO="Git Bash Environment"
 
 DISTRO=$(cat /etc/os-release | grep PRETTY_NAME | cut -d= -f2)
 
